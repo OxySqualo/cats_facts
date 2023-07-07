@@ -26,9 +26,3 @@ TextStyle myTitleTextStyle() {
   return const TextStyle(
       color: colorTuna, fontSize: 50, fontWeight: FontWeight.w900);
 }
-
-OutlineInputBorder enabledBorderStyle() {
-  return const OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.amberAccent, width: 3.0),
-      borderRadius: BorderRadius.all(Radius.circular(9.0)));
-}
